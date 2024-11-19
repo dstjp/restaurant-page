@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans";
+    background-color: #0F0F0F;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    filter: brightness(100%);
+    opacity: 50%;
+}
+
+.navbar > * {
+    margin: 10px;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+.nav-item:hover {
+    color: black;
+    background-color: white;
+    padding: 1px;
+    border-radius: 2px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+.parent {
+    display: flex;
+}
+
+.image1 {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.image2 {
+    position: absolute;
+    right:25%;
+    top:250px;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.parent-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.img-container {
+    height: 550px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.about-us-title {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.about-us-text {
+    color: white;
+    margin: 40px;
+    font-size: 24px;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    
+}
+
+.parent-3 {
+    position: relative;
+}
+
+.borderline {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-style: double;
+    width: 90%;
+    height: 10px;
+    color: white;
+}
+
+.menu-overlay {
+    filter: brightness(50%);
+    height: 100%;
+    width: 100%;
+}
+
+.chef-hat-logo {
+    position: absolute;
+    top: 12vh;
+    left: 6vw;
+    width: 49.6144px;
+    height: 45.6452px
+}
+.chef-hat-logo-2 {
+    position: absolute;
+    top: 12vh;
+    left: 49vw;
+    width: 49.6144px;
+    height: 45.6452px
+}
+.burgare-logo {
+    position: absolute;
+    top: 65vh;
+    left: 6vw;
+    width: 49.6144px;
+    height: 45.6452px
+}
+.shakes-logo {
+    position: absolute;
+    top: 50vh;
+    left: 49vw;
+    width: 49.6144px;
+    height: 45.6452px
+}
+
+.food-title {
+    color: white;
+    position: absolute;
+}
+
+
+
+.s-n-s-menu {
+    top: 26vh;
+    left: 6vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px; 
+    font-weight: 500;
+
+}
+.sallad-menu {
+    top: 27vh;
+    left: 49vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.shakes-menu {
+    top: 67vh;
+    left: 49vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.burgare-menu {
+    top: 80vh;
+    left: 6vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.s-n-s {
+    top: 24vh;
+    left: 6%;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -25px;
+}
+
+.sallad {
+    top: 24vh;
+    left: 49vw;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -25px;
+}
+.burgare {
+    top: 77vh;
+    left: 6vw;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -25px;
+}
+.shakes {
+    top: 63vh;
+    left: 49vw;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -25px;
+}
+
+.parent-4 {
+    position: relative;
+}
+
+.fries-img {
+    width: 100%;
+    filter: brightness(75%);
+}
+
+.fries-logo {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    height: 180px;
+    width: 180px;
+}
+
+.telefonplan {
+    top: 30vh;
+    left: 30vw;
+}
+
+.sundbyberg {
+    top: 30vh;
+    left: 60vw;
+}
+.fries-city-style {
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.contact-info {
+    position: absolute;
+    color: white;
+    top: 35vh;
+    left: 26vw;
+    text-align: center;
+}
+.contact-info-2 {
+    position: absolute;
+    color: white;
+    top: 35vh;
+    left: 57vw;
+    text-align: center;
+}
+
+.contact-info > *, 
+.contact-info-2 > * {
+    margin: 10px;
+}
+
+.bottom-info {
+    position: absolute;
+    color: white;
+    top: 55vh;
+    left: 43%;
+    text-align: center;
+}
